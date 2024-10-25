@@ -1,11 +1,10 @@
 import React from 'react';
 import Feature from '@/components/Features';
-import exp from 'constants';
 
-export const FeaturePage = () => {
+const FeaturePage: React.FC = () => {
   return (
     <Feature />
-  )
-}
+  );
+};
 
 export default FeaturePage;
