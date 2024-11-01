@@ -8,7 +8,6 @@ import FAQ from "@/components/FAQ";
 import Contact from "@/components/Contact";
 import Blog from "@/components/Blog";
 import Testimonial from "@/components/Testimonial";
-import { MarqueeDemo } from "@/components/Testimonials";
 
 export const metadata: Metadata = {
   title: "Advanced Cash on Delivery for Shopify - Manage COD Payments, Fees, and Conditions"
@@ -30,7 +29,6 @@ export default function Home() {
       <FAQ />
       <Testimonial />
       <Contact />
-      <Blog />
     </main>
   );
 }

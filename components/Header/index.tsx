@@ -63,7 +63,7 @@ const Header = () => {
             <span className="relative block h-5.5 w-5.5 cursor-pointer">
               <span className="absolute right-0 block h-full w-full">
                 <span
-                  className={`relative left-0 top-0 my-1 block h-0.5 rounded-sm bg-black delay-[0] duration-200 ease-in-out dark:bg-white ${
+                  className={`delay-[0] relative left-0 top-0 my-1 block h-0.5 rounded-sm bg-black duration-200 ease-in-out dark:bg-white ${
                     !navigationOpen ? "!w-full delay-300" : "w-0"
                   }`}
                 ></span>
@@ -81,7 +81,7 @@ const Header = () => {
               <span className="du-block absolute right-0 h-full w-full rotate-45">
                 <span
                   className={`absolute left-2.5 top-0 block h-full w-0.5 rounded-sm bg-black delay-300 duration-200 ease-in-out dark:bg-white ${
-                    !navigationOpen ? "!h-0 delay-[0]" : "h-full"
+                    !navigationOpen ? "delay-[0] !h-0" : "h-full"
                   }`}
                 ></span>
                 <span
@@ -152,14 +152,7 @@ const Header = () => {
           </nav>
 
           <div className="mt-7 flex items-center gap-6 xl:mt-0">
-            <ThemeToggler />
-
-            <Link
-              href="/support"
-              className="text-regular font-medium text-waterloo hover:text-primary"
-            >
-              Request Callback
-            </Link>
+            {/* <ThemeToggler /> */}
 
             <Link
               href="https://apps.shopify.com/cod-advanced-cash-on-delivery?search_id=24cd1779-c174-4c76-ab3a-391d62d10028&surface_detail=advanced+cash+on+delivery&surface_inter_position=1&surface_intra_position=5&surface_type=search"
@@ -173,6 +166,5 @@ const Header = () => {
     </header>
   );
 };
-
 
 export default Header;

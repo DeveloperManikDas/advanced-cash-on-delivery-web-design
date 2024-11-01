@@ -31,13 +31,15 @@ const SingleBrand = ({ brand }: { brand: Brand }) => {
           className="opacity-65 transition-all duration-300 hover:opacity-100 dark:hidden"
           src={image}
           alt={name}
-          fill
+          width={98}
+          height={98}
         />
         <Image
           className="hidden opacity-50 transition-all duration-300 hover:opacity-100 dark:block"
           src={imageLight}
           alt={name}
-          fill
+          width={98}
+          height={98}
         />
       </motion.a>
     </>
