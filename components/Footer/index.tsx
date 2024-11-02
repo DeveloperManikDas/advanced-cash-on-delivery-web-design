@@ -9,7 +9,7 @@ const Footer = () => {
         <div className="mx-auto max-w-c-1390 px-4 md:px-8 2xl:px-0">
           {/* <!-- Footer Top --> */}
           <div className="py-12">
-            <div className="flex flex-wrap gap-8 lg:justify-between lg:gap-0">
+            <div className="flex flex-col lg:flex-row lg:items-center pl-8 flex-wrap  lg:justify-between lg:gap-0">
               <motion.div
                 variants={{
                   hidden: {
@@ -41,7 +41,7 @@ const Footer = () => {
                 <p className="mb-10 mt-5">Advanced cash on delivery</p>
               </motion.div>
 
-              <div className="flex flex-col gap-16 md:flex-row md:justify-start md:gap-16 ">
+              <div className="flex flex-col gap-16 md:flex-row md:justify-start  ">
                 <motion.div
                   variants={{
                     hidden: {
