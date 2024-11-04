@@ -4,18 +4,78 @@ import VideoCard from "./videoCard"; // Adjust the import path as necessary
 
 // Sample video data with categories
 const videoData = [
-  { title: "Video 1", description: "Description 1", videoId: "waBXlVfTF5M", category: "Fees" },
-  { title: "Video 2", description: "Description 2", videoId: "waBXlVfTF5M", category: "Customer" },
-  { title: "Video 3", description: "Description 3", videoId: "waBXlVfTF5M", category: "Product" },
-  { title: "Video 4", description: "Description 4", videoId: "waBXlVfTF5M", category: "Location" },
-  { title: "Video 5", description: "Description 5", videoId: "waBXlVfTF5M", category: "Fees" },
-  { title: "Video 6", description: "Description 6", videoId: "waBXlVfTF5M", category: "Customer" },
-  { title: "Video 7", description: "Description 7", videoId: "waBXlVfTF5M", category: "Product" },
-  { title: "Video 8", description: "Description 8", videoId: "waBXlVfTF5M", category: "Location" },
-  { title: "Video 9", description: "Description 9", videoId: "waBXlVfTF5M", category: "Fees" },
-  { title: "Video 10", description: "Description 10", videoId: "waBXlVfTF5M", category: "Customer" },
-  { title: "Video 11", description: "Description 11", videoId: "waBXlVfTF5M", category: "Product" },
-  { title: "Video 12", description: "Description 12", videoId: "waBXlVfTF5M", category: "Location" },
+  {
+    title: "Setting Up Fees for COD Orders",
+    description: "Learn how to configure fees for cash on delivery orders.",
+    videoId: "waBXlVfTF5M",
+    category: "Fees",
+  },
+  {
+    title: "Managing Customer Tags",
+    description: "Discover how to use customer tags for better control.",
+    videoId: "waBXlVfTF5M",
+    category: "Customer",
+  },
+  {
+    title: "Product-Based COD Restrictions",
+    description: "Implement COD options based on specific products.",
+    videoId: "waBXlVfTF5M",
+    category: "Product",
+  },
+  {
+    title: "Setting Up Location-Based COD",
+    description: "Configure COD availability by customer location.",
+    videoId: "waBXlVfTF5M",
+    category: "Location",
+  },
+  {
+    title: "Dynamic Fees by Region",
+    description: "Adjust fees dynamically based on shipping regions.",
+    videoId: "waBXlVfTF5M",
+    category: "Fees",
+  },
+  {
+    title: "Advanced Customer Segmentation",
+    description: "Use advanced segmentation to target customers.",
+    videoId: "waBXlVfTF5M",
+    category: "Customer",
+  },
+  {
+    title: "Product Exclusions from COD",
+    description: "Learn how to exclude certain products from COD.",
+    videoId: "waBXlVfTF5M",
+    category: "Product",
+  },
+  {
+    title: "Optimizing COD Delivery Areas",
+    description: "Manage delivery areas for efficient COD operations.",
+    videoId: "waBXlVfTF5M",
+    category: "Location",
+  },
+  {
+    title: "Configuring COD Fee Thresholds",
+    description: "Set up minimum order values for applying COD fees.",
+    videoId: "waBXlVfTF5M",
+    category: "Fees",
+  },
+  {
+    title: "Customer Tag Automation",
+    description: "Automate customer tagging for better management.",
+    videoId: "waBXlVfTF5M",
+    category: "Customer",
+  },
+  {
+    title: "Product Bundles and COD",
+    description: "Handle COD options for product bundles.",
+    videoId: "waBXlVfTF5M",
+    category: "Product",
+  },
+  {
+    title: "Expanding COD to New Regions",
+    description: "Strategies for expanding COD services.",
+    videoId: "waBXlVfTF5M",
+    category: "Location",
+  },
 ];
 
 const VideoGalleryPage: React.FC = () => {
