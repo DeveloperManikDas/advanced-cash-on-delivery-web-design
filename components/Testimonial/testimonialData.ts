@@ -5,35 +5,43 @@ import { Testimonial } from "@/types/testimonial";
 export const testimonialData: Testimonial[] = [
   {
     id: 1,
-    name: "ItsBen LifeStyle",
-    designation: "Shopify Store Owner, India",
+    name: "Will the app access my customer or order information?",
+    designation: "No, we do not have access to your store data.",
     image: image1,
     content:
-      "An essential tool for Shopify store owners looking to streamline their COD process. It allows precise control over COD options based on product categories, order value, and customer location. The interface is user-friendly, making it easy to set up complex rules without technical expertise.",
+      "We only use the Shopify Functions API to implement customizations, ensuring that your customer and order information remains secure and private. Your data is not collected or stored by our app, allowing you to maintain full control over your store's information.",
   },
   {
     id: 2,
-    name: "Gute Reise",
-    designation: "Shopify Store Owner, India",
+    name: "How easy is it to set up the app?",
+    designation: "Absolutely!",
     image: image2,
     content:
-      "I absolutely love this app and its support team! They helped me set up everything smoothly, and their assistance has been incredible. This app is a game-changer for my store, and I highly recommend it to everyone looking to enhance their cash-on-delivery functionality. Definitely a must-have!",
+      "The app is designed for easy configuration with user-friendly settings. You can set up and customize your preferences quickly, even if you’re not technically inclined. Our step-by-step guidance will help you get started in no time.",
   },
   {
     id: 3,
-    name: "My Store",
-    designation: "Shopify Store Owner, India",
+    name: "Can I choose to hide COD for certain pin codes?",
+    designation: "Yes, you can restrict COD availability.",
     image: image1,
     content:
-      "Excellent app, excellent customer support. Just loved everything about it.",
+      "You can easily restrict Cash on Delivery (COD) availability for specific pin codes.",
   },
   {
     id: 4,
-    name: "Menworks®",
-    designation: "Shopify Store Owner, India",
+    name: "What about personalized products? Can I hide COD for them?",
+    designation: "Yes, COD can be hidden for personalized products.",
     image: image2,
     content:
-      "Super app. I had an issue that was resolved super fast with the help of Sabeeh. He jumped on a call and helped us out within 2 mins of chatting with him. Pricing is good too! Highly recommended.",
+      "You can hide COD options for personalized products by using the product tags or collection features in the app.",
+  },
+  {
+    id: 5,
+    name: "Is there a way to hide COD for specific customers?",
+    designation: "Yes, restrict COD for specific customers.",
+    image: image1,
+    content:
+      "You can restrict COD for specific customers by using customer tags.",
   },
 ];
 

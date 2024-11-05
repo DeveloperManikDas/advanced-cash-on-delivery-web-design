@@ -54,7 +54,7 @@ const cardData = [
     title: "Documentation",
     description:
       "Explore our docs to understand how to navigate and use our platform well.",
-    link: "/help-center/documentation",
+    link: "http://docs.ninjafront.com/",
     linkText: "Read Docs",
     Icon: FaFileAlt,
   },
@@ -62,14 +62,14 @@ const cardData = [
     title: "Blogs",
     description:
       "Stay updated with our latest posts, insights, and best practices to succeed.",
-    link: "/help-center/blogs",
+    link: "/blog",
     linkText: "Read Blogs",
     Icon: FaBlog,
   },
   {
     title: "FAQs",
     description: "Find answers to frequently asked questions and common inquiries.",
-    link: "/help-center/faqs",
+    link: "#faqs",
     linkText: "View FAQs",
     Icon: FaBook,
   },

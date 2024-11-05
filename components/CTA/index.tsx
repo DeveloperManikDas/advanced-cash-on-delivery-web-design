@@ -2,6 +2,7 @@
 import React from "react";
 import Image from "next/image";
 import { motion } from "framer-motion";
+import Link from "next/link";
 
 const CTA = () => {
   return (
@@ -29,11 +30,10 @@ const CTA = () => {
               className="animate_left md:w-[70%] lg:w-1/2"
             >
               <h2 className="mb-4 w-11/12 text-3xl font-bold text-black dark:text-white xl:text-sectiontitle4">
-                Book one on one Call
+              Schedule a 1:1 Call
               </h2>
               <p>
-                Our export team is available twenty four seven to assist you
-                with any queries or support you may need.
+              Our expert team is available 24/7 to assist you with any queries or support you may need.
               </p>
             </motion.div>
             <motion.div
@@ -62,11 +62,11 @@ const CTA = () => {
                   alt="Saly"
                   className="hidden xl:block"
                 />
-                <a
-                  href="#"
+                <Link
+                  href="https://cal.com/sabeeh-k-wtrh2x/30min?date=2024-11-05&month=2024-11"
                   className="inline-flex items-center gap-2.5 rounded-full bg-black px-6 py-3 font-medium text-white hover:opacity-90 dark:bg-white dark:text-black"
                 >
-                  Book Now{" "}
+                  Schedule Now{" "}
                   <Image
                     width={20}
                     height={20}
@@ -81,7 +81,7 @@ const CTA = () => {
                     alt="Arrow"
                     className="hidden dark:block"
                   />
-                </a>
+                </Link>
               </div>
             </motion.div>
           </div>

@@ -66,8 +66,7 @@ const About = () => {
                 </span>
               </span>
               <h2 className="relative mb-6 text-3xl font-bold text-black dark:text-white xl:text-hero">
-                Reduce Risks with COD Management
-              </h2>
+              Secure and Simplify Your COD Process              </h2>
 
               <div className="mt-7.5 flex items-center gap-5">
                 <div className="flex h-15 w-15 items-center justify-center rounded-[50%] border border-stroke dark:border-strokedark dark:bg-blacksection">
@@ -77,8 +76,7 @@ const About = () => {
                 </div>
                 <div className="w-3/4">
                   <h3 className="mb-0.5 text-metatitle2 text-black dark:text-white">
-                    Control who can access COD by restricting availability based
-                    on region or pin code.
+                  Encourage Prepaid Orders by adding an extra fee for COD.
                   </h3>
                 </div>
               </div>
@@ -90,8 +88,7 @@ const About = () => {
                 </div>
                 <div className="w-3/4">
                   <h3 className="mb-0.5 text-metatitle2 text-black dark:text-white">
-                    Reduce fraudulent orders by applying advanced verification
-                    before offering COD.
+                  Control COD Access by restricting availability based on pin code, state, or country.
                   </h3>
                 </div>
               </div>
@@ -103,8 +100,7 @@ const About = () => {
                 </div>
                 <div className="w-3/4">
                   <h3 className="mb-0.5 text-metatitle2 text-black dark:text-white">
-                    Limit COD to reliable customers with customization rules and
-                    order criteria.
+                  Reduce Returns by limiting COD availability for customers with high return rates.
                   </h3>
                 </div>
               </div>
@@ -136,17 +132,12 @@ const About = () => {
               className="animate_left md:w-1/2"
             >
               <h4 className="font-medium uppercase text-black dark:text-white">
-                Set up in lesser than 1 minute
-              </h4>
+              Set Up COD Rules in 60 Seconds!              </h4>
               <h2 className="relative mb-6 text-3xl font-bold text-black dark:text-white xl:text-hero">
-                Improve Profitability with Fee Adjustments{"   "}
+              Customize your COD Payment method by setting various rules{"   "}
               </h2>
               <p>
-                You can add customization fees to COD (Cash on Delivery) orders
-                to cover additional handling and logistics costs. Set different
-                COD fees based on factors like region, order value, or customer
-                group, allowing you to tailor the charges to specific
-                circumstances.
+              Add fees for COD orders based on order value or weight. Additionally, restrict COD to trusted customers, specific products, collections, and more for enhanced management!
               </p>
               <div>
                 <a

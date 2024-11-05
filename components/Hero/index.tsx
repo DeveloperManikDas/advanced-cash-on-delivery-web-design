@@ -8,18 +8,14 @@ const Hero = () => {
           <div className="flex lg:items-center lg:gap-8 xl:gap-32.5">
             <div className=" md:w-1/2">
               <h4 className="mb-4.5 text-lg font-medium text-black dark:text-white">
-                Seamless COD Management for Your Shopify Store
+              Complete Solution for COD Orders in One App
               </h4>
               <h1 className="mb-5 pr-16 text-3xl font-bold text-black dark:text-white xl:text-hero ">
                 {"   "}
-                Advanced Cash on Delivery - Maximize Profits with Complete COD
-                Control
+                Advanced Cash on Delivery - Maximize Profits with Complete COD Control
               </h1>
               <p>
-                Advanced Cash on Delivery is the ultimate tool to manage COD
-                payments on Shopify. With powerful features, you can easily
-                control, customize, and optimize your cash-on-delivery process
-                to increase revenue, reduce risk, and streamline operations.
+              The ultimate tool for managing COD on Shopify—boost revenue, reduce RTO, and simplify your workflow.
               </p>
 
               <div className="mt-10 flex justify-start items-center gap-4">
