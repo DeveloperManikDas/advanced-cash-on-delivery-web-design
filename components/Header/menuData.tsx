@@ -17,7 +17,7 @@ const menuData: Menu[] = [
     id: 2.1,
     title: "Docs",
     newTab: false,
-    path: "/docs",
+    path: "http://docs.ninjafront.com/",
   },
   {
     id: 2.3,

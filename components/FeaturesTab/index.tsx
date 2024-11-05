@@ -63,7 +63,8 @@ const FeaturesTab = () => {
               </div>
               <div className="md:w-3/5 lg:w-auto">
                 <button className="text-sm font-medium text-black dark:text-white xl:text-regular">
-                Location                 </button>
+                  Location{" "}
+                </button>
               </div>
             </div>
             <div
@@ -81,7 +82,8 @@ const FeaturesTab = () => {
               </div>
               <div className="md:w-3/5 lg:w-auto">
                 <button className="text-sm font-medium text-black dark:text-white xl:text-regular">
-                Products                </button>
+                  Products{" "}
+                </button>
               </div>
             </div>
             <div
@@ -99,7 +101,8 @@ const FeaturesTab = () => {
               </div>
               <div className="md:w-3/5 lg:w-auto">
                 <button className="text-sm font-medium text-black dark:text-white xl:text-regular">
-                Products                </button>
+                  Products{" "}
+                </button>
               </div>
             </div>
           </motion.div>
