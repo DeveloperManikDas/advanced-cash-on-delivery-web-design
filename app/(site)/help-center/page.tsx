@@ -1,7 +1,7 @@
 import React from "react";
 import Contact from "@/components/Contact";
 import { Metadata } from "next";
-import Support from '@/components/SupportPage'; // Adjust the path as necessary
+import Support from '@/components/SupportPage'; 
 
 export const metadata: Metadata = {
   title: "Support Page - Advanced cash on delivery ",

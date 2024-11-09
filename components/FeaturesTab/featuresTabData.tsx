@@ -47,14 +47,14 @@ const featuresTabData: FeatureTab[] = [
         title: "",
         text: "Manage COD access by tagging customers with a history of high return-to-origin (RTO) rates. Additionally, set criteria based on customer email addresses and phone numbers for added security. This ensures that only reliable customers can access this payment method.",
       },
-      {
-        title: "",
-        text: "",
-      },
-      {
-        title: "",
-        text: "",
-      },
+      // {
+      //   title: "",
+      //   text: "",
+      // },
+      // {
+      //   title: "",
+      //   text: "",
+      // },
     ],
     image: "/demo.svg",
   },

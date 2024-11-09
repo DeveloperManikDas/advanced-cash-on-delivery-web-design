@@ -78,7 +78,7 @@ const Footer = () => {
                         href="#"
                         className="mb-3 inline-block hover:text-primary"
                       >
-                        Product
+                        Documentation
                       </a>
                     </li>
                     <li>
@@ -128,7 +128,7 @@ const Footer = () => {
                         href="#"
                         className="mb-3 inline-block hover:text-primary"
                       >
-                        Company
+                        Video Totorials
                       </a>
                     </li>
                     <li>

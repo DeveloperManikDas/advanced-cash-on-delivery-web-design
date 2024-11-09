@@ -69,7 +69,7 @@ const cardData = [
   {
     title: "FAQs",
     description: "Find answers to frequently asked questions and common inquiries.",
-    link: "#faqs",
+    link: "/help-center/all-faq",
     linkText: "View FAQs",
     Icon: FaBook,
   },

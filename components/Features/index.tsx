@@ -1,4 +1,7 @@
 import Image from "next/image";
+import FeatureCard from "./featureCard";
+import {featureCardData} from "./featureCardData";
+
 
 export default function Feature() {
   return (
@@ -24,7 +27,43 @@ export default function Feature() {
           />
         </section>
         <div className="mx-auto grid max-w-5xl grid-cols-1 gap-8 md:grid-cols-2">
-          {/* Feature 1 */}
+
+
+
+        {featureCardData.map((feature, index) => (
+        <FeatureCard
+          key={index}
+          title={feature.title}
+          description={feature.description}
+          imageSrc={feature.imageSrc}
+          imageAlt={feature.imageAlt}
+          imageWidth={feature.imageWidth}
+          imageHeight={feature.imageHeight}
+        />
+      ))}
+
+          {/* <div className="flex flex-col rounded-lg bg-gray-50 p-6  mb-12">
+            <div className="mb-6 w-full md:pr-6">
+              <h3 className="mb-2 text-xl font-semibold">
+                Seamless COD Integration
+              </h3>
+              <p className="text-gray-600">
+                Enable smooth cash on delivery options tailored to your store’s
+                needs, ensuring a better customer experience.
+              </p>
+            </div>
+            <div className="w-full">
+              <Image
+                src="/images/features/features-light-01.png" // Adjust the path if the image is saved differently
+                alt="Seamless COD Integration"
+                width={400} // Adjust width for desired size
+                height={300} // Adjust height for desired size
+                className="rounded-lg"
+              />
+            </div>
+          </div>
+
+
           <div className="flex flex-col rounded-lg bg-gray-50 p-6  mb-12">
             <div className="mb-6 w-full md:pr-6">
               <h3 className="mb-2 text-xl font-semibold">
@@ -45,28 +84,8 @@ export default function Feature() {
               />
             </div>
           </div>
-          {/* Feature 1 */}
-          <div className="flex flex-col rounded-lg bg-gray-50 p-6  mb-12">
-            <div className="mb-6 w-full md:pr-6">
-              <h3 className="mb-2 text-xl font-semibold">
-                Seamless COD Integration
-              </h3>
-              <p className="text-gray-600">
-                Enable smooth cash on delivery options tailored to your store’s
-                needs, ensuring a better customer experience.
-              </p>
-            </div>
-            <div className="w-full">
-              <Image
-                src="/images/features/features-light-01.png" // Adjust the path if the image is saved differently
-                alt="Seamless COD Integration"
-                width={400} // Adjust width for desired size
-                height={300} // Adjust height for desired size
-                className="rounded-lg"
-              />
-            </div>
-          </div>
-          {/* Feature 1 */}
+
+
           <div className="flex flex-col rounded-lg bg-gray-50 p-6 mb-12">
             <div className="mb-6 w-full md:pr-6">
               <h3 className="mb-2 text-xl font-semibold">
@@ -87,7 +106,8 @@ export default function Feature() {
               />
             </div>
           </div>
-          {/* Feature 1 */}
+
+
           <div className="flex flex-col rounded-lg bg-gray-50 p-6  mb-12">
             <div className="mb-6 w-full md:pr-6">
               <h3 className="mb-2 text-xl font-semibold">
@@ -108,7 +128,8 @@ export default function Feature() {
               />
             </div>
           </div>{" "}
-          {/* Feature 1 */}
+
+
           <div className="flex flex-col rounded-lg bg-gray-50 p-6  mb-12">
             <div className="mb-6 w-full md:pr-6">
               <h3 className="mb-2 text-xl font-semibold">
@@ -129,7 +150,7 @@ export default function Feature() {
               />
             </div>
           </div>{" "}
-          {/* Feature 1 */}
+
           <div className="flex flex-col rounded-lg bg-gray-50 p-6  mb-12">
             <div className="mb-6 w-full md:pr-6">
               <h3 className="mb-2 text-xl font-semibold">
@@ -149,7 +170,7 @@ export default function Feature() {
                 className="rounded-lg"
               />
             </div>
-          </div>                                                                                            
+          </div>                                                                                             */}
         </div>
       </section>
     </div>

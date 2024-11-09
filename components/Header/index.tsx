@@ -129,7 +129,7 @@ const Header = () => {
                       >
                         {menuItem.submenu.map((item, key) => (
                           <li key={key} className="hover:text-primary">
-                            <Link href={item.path || "#"}>{item.title}</Link>
+                            <Link href={item.path || "#"} onClick={() => setNavigationOpen(false)}>{item.title}</Link>
                           </li>
                         ))}
                       </ul>
@@ -142,6 +142,7 @@ const Header = () => {
                           ? "text-primary hover:text-primary"
                           : "hover:text-primary"
                       }
+                      onClick={() => setNavigationOpen(false)}
                     >
                       {menuItem.title}
                     </Link>
