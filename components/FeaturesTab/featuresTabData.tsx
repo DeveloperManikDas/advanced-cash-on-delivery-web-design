@@ -18,7 +18,7 @@ const featuresTabData: FeatureTab[] = [
         text: "Set limits based on states or provinces for tailored offerings!",
       },
     ],
-    image: "/demo.svg",
+    image: "/images/placeholder/home-location.svg",
   },
   {
     id: "tabTwo",
@@ -37,7 +37,7 @@ const featuresTabData: FeatureTab[] = [
         text: "Control COD access based on product vendor names.",
       },
     ],
-    image: "/demo.svg",
+    image: "/images/placeholder/home-product.svg",
   },
   {
     id: "tabThree",
@@ -47,16 +47,8 @@ const featuresTabData: FeatureTab[] = [
         title: "",
         text: "Manage COD access by tagging customers with a history of high return-to-origin (RTO) rates. Additionally, set criteria based on customer email addresses and phone numbers for added security. This ensures that only reliable customers can access this payment method.",
       },
-      // {
-      //   title: "",
-      //   text: "",
-      // },
-      // {
-      //   title: "",
-      //   text: "",
-      // },
-    ],
-    image: "/demo.svg",
+        ],
+    image: "/images/placeholder/home discount.svg",
   },
   
 ];
