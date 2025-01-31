@@ -1,15 +1,7 @@
 "use client"
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 
 const MarqueeLogos: React.FC = () => {
-  const [animationDelay, setAnimationDelay] = useState<string[]>([]);
-
-  useEffect(() => {
-    // Set animation delay for each item dynamically
-    const delays = Array.from({ length: 6 }, (_, index) => `-${(30 / 6) * (6 - index)}s`);
-    setAnimationDelay(delays);
-  }, []);
-
   const images = [
     "images/brand/brand1.svg",
     "images/brand/brand2.svg",
@@ -26,32 +18,49 @@ const MarqueeLogos: React.FC = () => {
         {`
           @keyframes scrollLeft {
             0% {
-              transform: translateX(100%);
+              transform: translateX(0%);
             }
             100% {
-              transform: translateX(-200px);
+              transform: translateX(-100%);
             }
+          }
+
+          .marquee-container {
+            display: flex;
+            width: max-content; /* Ensure the container is wide enough to hold all logos */
+            animation: scrollLeft 20s linear infinite;
+          }
+
+          .marquee-item {
+            flex-shrink: 0;
+            width: 200px; /* Adjust based on your logo size */
+            display: flex;
+            align-items: center;
+            justify-content: center;
           }
         `}
       </style>
 
       {/* Wrapper container */}
-      <div className="relative w-11/12 max-w-screen-xl mx-auto mt-20 h-24 overflow-hidden flex items-center">
-        <div className="flex space-x-5">
+      <div className="relative w-11/12 max-w-screen-xl mx-auto h-32 overflow-hidden flex items-center">
+        <div className="marquee-container">
           {/* Items to be animated */}
           {images.map((image, index) => (
-            <div
-              key={index}
-              className="w-48 h-24 flex items-center justify-center"
-              style={{
-                animation: `scrollLeft 30s linear infinite`,
-                animationDelay: animationDelay[index],
-              }}
-            >
+            <div key={index} className="marquee-item">
               <img
                 src={image}
                 alt={`Brand ${index + 1}`}
-                className="w-full h-auto object-contain"
+                className="w-full h-auto object-contain max-h-24" /* Adjust max-height as needed */
+              />
+            </div>
+          ))}
+          {/* Duplicate the logos for a seamless loop */}
+          {images.map((image, index) => (
+            <div key={`duplicate-${index}`} className="marquee-item">
+              <img
+                src={image}
+                alt={`Brand ${index + 1}`}
+                className="w-full h-auto object-contain max-h-24" /* Adjust max-height as needed */
               />
             </div>
           ))}

@@ -23,14 +23,14 @@ export default function Home() {
   return (
     <main>
       <Hero />
-      <Brands />
+      <MarqueeLogos />
+      {/* <Brands /> */}
       <About />
       <FeaturesTab />
       <CTA />
       <FAQ />
       <Testimonial />
       <Contact />
-      {/* <MarqueeLogos /> */}
     </main>
   );
 }
